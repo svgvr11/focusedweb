@@ -195,36 +195,21 @@ h3{
 	background-color: rgba(36, 33, 94, 0.877);
 	margin-top: 2%;
 	height: 120px;
-
+	display: flex;
+	justify-content: space-between;
+	padding: 0 40px 0 40px;
 }
 
-footer p{
-	color: antiquewhite;
-	line-height: 18px;
-	margin-top: 100px;
+.footer div {
+	color: #fff;
+	display: flex;
+	align-items: center;
 }
 
-footer img{
-	float: left;
-	margin-left: 5%;
-}
-
-footer nav{
-	float: right;
-	margin-right: 5%;
+.footer ul {
+	list-style: none;
 	text-align: left;
 }
-
-.right-nav{
-	float: right;
-	margin-right: 5%;
-	text-align: left;
-}
-
-.div-container-footer{
-	height: 120px;
-}
-
 
 @supports(object-fit: cover){
     .contenedor img{
